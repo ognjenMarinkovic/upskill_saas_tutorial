@@ -26,10 +26,12 @@ h1,h2,h3{
 
 //Background Gradient
 .navbar, .home-callout {
-    background: #50C9C3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #96DEDA, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#944662+0,e1462f+100 */
+background: #944662; /* Old browsers */
+background: -moz-linear-gradient(left, #944662 0%, #e1462f 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #944662 0%,#e1462f 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #944662 0%,#e1462f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#944662', endColorstr='#e1462f',GradientType=1 ); /* IE6-9 */
 }
 //Nav Styles 
 
@@ -40,8 +42,8 @@ h1,h2,h3{
 }
 
 .navbar-brand {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
 }
  
 .navbar-default .navbar-brand,
