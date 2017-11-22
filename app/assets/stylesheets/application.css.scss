@@ -25,7 +25,7 @@ h1,h2,h3{
 }
 
 //Background Gradient
-.navbar, .home-callout {
+.home-callout {
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#944662+0,e1462f+100 */
 background: #944662; /* Old browsers */
 background: -moz-linear-gradient(left, #944662 0%, #e1462f 100%); /* FF3.6-15 */
@@ -38,6 +38,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#944662', end
 
 
 .navbar {
+   
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9d4b69+0,e2513a+100 */
+    background: #9d4b69; /* Old browsers */
+    background: -moz-linear-gradient(left, #9d4b69 0%, #e2513a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #9d4b69 0%,#e2513a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #9d4b69 0%,#e2513a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d4b69', endColorstr='#e2513a',GradientType=1 ); /* IE6-9 */
     border:none;
 }
 
@@ -66,9 +73,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#944662', end
 }
 
 .home-callout {
+   
     color:white;
     margin-top: -20px;
     padding-top: 50px;
     padding-bottom: 100px;
 }
-
+img.resize{
+    width:auto; /* you can use % */
+    height: auto;
+}
