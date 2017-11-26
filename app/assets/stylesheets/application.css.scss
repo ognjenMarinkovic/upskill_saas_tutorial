@@ -23,9 +23,18 @@
 
  
 h1,h2,h3{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: white;
   font-family: 'Open Sans', sans-serif;
+  
 }
-
+h5{
+  font-size: 15px;
+  color: white;
+}
 //Background Gradient
 .home-callout {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c1c1c+0,000000+100 */
@@ -142,3 +151,27 @@ sup {
  
 }
 /* Neki pokusaji */
+.carousel-inner{
+   background-color: #111111;
+}
+body{
+  background-color: #343434;
+}
+#whoAmI{
+  padding-bottom: 40px;
+  padding-top: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#whatAmI{
+  padding-bottom: 80px;
+  padding-top: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#naslov{
+  
+  background-color: #111111;
+}
