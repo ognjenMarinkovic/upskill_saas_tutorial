@@ -88,19 +88,23 @@ h1,h2,h3{
 }
 /* Changing color of buttons */
 .btn-default{
+  border: none;
   color: white;
   background-color: #343434;
-  border-color: #343434;
   &:hover, &:focus{
     color: white;
-    opacity: 0.75;
     background-color: #3f3f3f;
   }
 }
-img.resize{
-  width:auto; /* you can use % */
-  height: auto;
+.btn-success{
+  border: none;
+  background-color: #232323;
+  &:hover, &:focus{
+    color: white;
+    background-color: #3f3f3f;
+  }
 }
+
 
 /* ICONA */
 @font-face {
@@ -137,3 +141,4 @@ sup {
   top: -10px;
  
 }
+/* Neki pokusaji */
